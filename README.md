@@ -26,3 +26,40 @@ Quality control automation: Implement automated systems to monitor and adjust cr
 Staff training: Provide ongoing training to staff so they understand the importance of key variables and how to manage them appropriately.
 Real-time analysis: Develop real-time analysis systems that allow an immediate response to any deviations in critical variables, thus minimizing the risk of excessive foaming and other quality problems.
 This project has demonstrated the potential of sorting techniques to optimize the soft drink bottling process, with important economic and operational implications. Implementing appropriate classification models and continuous improvement of processes and data can lead to greater efficiency, cost reduction, and improvement in the quality of the final product.
+
+Technologies Used in the Project
+
+This project leverages advanced Python libraries and tools for data analysis, visualization, and modeling. The main technologies used are:
+
+1. Data Manipulation and Analysis:
+NumPy: For numerical operations and handling multidimensional arrays.
+Pandas: For data manipulation and analysis using DataFrame structures.
+
+2. Data Visualization:
+Matplotlib: For creating static plots, color maps, and custom annotations.
+Plotly: For building interactive and customizable graphs, including subplots.
+
+3. Data Preprocessing:
+StandardScaler (Scikit-learn): For normalizing features by removing the mean and scaling to unit variance.
+
+4. Data Modeling:
+Classification Models:
+Decision Trees (DecisionTreeClassifier)
+K-Nearest Neighbors (KNeighborsClassifier)
+Support Vector Machines (SVC)
+Gaussian Naive Bayes (GaussianNB)
+
+5. Model Evaluation and Validation:
+Scikit-learn:
+Metrics: accuracy, confusion matrix, mean squared error (MSE), coefficient of determination (R²), mean absolute error (MAE).
+Validation techniques: cross-validation, hyperparameter tuning (GridSearchCV, StratifiedKFold, etc.).
+
+6. Metric and Model Visualization:
+plot_tree (Scikit-learn): For visualizing decision tree structures.
+ConfusionMatrixDisplay: For graphical representation of the confusion matrix.
+
+Classification Models Used
+Decision Trees (DecisionTreeClassifier)
+K-Nearest Neighbors (KNeighborsClassifier)
+Support Vector Machines (SVC)
+Gaussian Naive Bayes (GaussianNB)
